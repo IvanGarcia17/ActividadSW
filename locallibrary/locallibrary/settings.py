@@ -27,9 +27,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
-
+#PUSH
 ALLOWED_HOSTS = [
-    'intense-falls-67966.herokuapp.com',
+    'afternoon-hamlet-34351.herokuapp.com', 
     '127.0.0.1'
 ]
 
