@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-8ygfh)u#a%@(v(@9o=m9n4#vc*q79u)eyyf&-jg3b3*s$=t#*$
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    
+
 ]
 
 
@@ -135,6 +135,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
